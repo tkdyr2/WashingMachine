@@ -11,9 +11,6 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
     >
-
-
-
         <Button
                 android:layout_marginTop="100dp"
                 android:layout_marginLeft="100dp"
