@@ -10,21 +10,27 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:background="#212121"
     >
         <Button
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="150dp"
                 android:layout_marginLeft="100dp"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
-                android:text="어플 시작 버튼"
+                android:layout_height="80dp"
+                android:text="시작"
+                android:textStyle="bold"
+                android:textSize="20dp"
                 android:id="@+id/startbutton"
+                android:background="#FFBB00"
 
         />
 
         <ImageView
-                android:layout_width="400dp"
-                android:layout_height="400dp"
-                android:src="@drawable/washingimage1"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/washing_machineicon1"
 
         />
 
