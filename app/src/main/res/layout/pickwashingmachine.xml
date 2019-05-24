@@ -24,10 +24,10 @@
         >
             <TextView
 
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="##사용할 세탁기를 선택하세요##"
-                    android:textSize="30dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:text="####사용할 세탁기를 선택하세요###"
+                    android:textSize="25dp"
                     android:textStyle="bold"
                     android:background="#FFBB00"
 
@@ -62,8 +62,9 @@
             />
 
             <TextView
+                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="95dp"
                     android:text="세탁기번호:1
                                   다음 예약자 수:0
                                   세탁기 상태 : 미사용"
@@ -93,8 +94,9 @@
             />
 
             <TextView
+                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="95dp"
                     android:text="세탁기번호:2
                                   다음 예약자 수:0
                                   세탁기 상태 : 미사용"
@@ -127,8 +129,9 @@
             />
 
             <TextView
+                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="95dp"
                     android:text="세탁기번호:3
                                   다음 예약자 수:0
                                   세탁기 상태 : 미사용"
@@ -162,8 +165,9 @@
             />
 
             <TextView
+                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="95dp"
                     android:text="세탁기번호:4
                                   다음 예약자 수:0
                                   세탁기 상태 : 미사용"
@@ -194,8 +198,9 @@
             />
 
             <TextView
+                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="95dp"
                     android:text="세탁기번호:5
                                   다음 예약자 수:0
                                   세탁기 상태 : 미사용"
@@ -226,8 +231,9 @@
             />
 
             <TextView
+                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="95dp"
                     android:text="세탁기번호:6
                                   다음 예약자 수:0
                                   세탁기 상태 : 미사용"

@@ -21,6 +21,7 @@
         <activity android:name=".LoginActivity"/>
         <activity android:name=".ChoiceRoomActivity"/>
         <activity android:name=".PickWashingMachine"/>
+        <activity android:name=".MyWashingMachineActivity"/>
 
     </application>
 

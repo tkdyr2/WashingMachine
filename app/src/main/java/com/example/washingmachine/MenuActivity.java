@@ -12,7 +12,8 @@ public class MenuActivity  extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu);
 
-        Button btn1= (Button)findViewById(R.id.button1);
+        Button btn1 = (Button) findViewById(R.id.button1);
+        Button btn2 = (Button) findViewById(R.id.button2);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -22,6 +23,18 @@ public class MenuActivity  extends Activity {
                 startActivity(intent);
             }
         });
+
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),
+                        MyWashingMachineActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
 
     }
 
