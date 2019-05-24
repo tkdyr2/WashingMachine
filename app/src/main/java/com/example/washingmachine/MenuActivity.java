@@ -11,12 +11,14 @@ public class MenuActivity  extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu);
+
         Button btn1= (Button)findViewById(R.id.button1);
+
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),
-                        ChoiceActivity.class);
+                        ChoiceRoomActivity.class);
                 startActivity(intent);
             }
         });

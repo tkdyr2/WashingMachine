@@ -20,8 +20,9 @@
             <ImageButton
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/sunmoonM"
-                    android:scaleType="fitCenter"
+                    android:src="@drawable/sunmoonm"
+                    android:scaleType="fitXY"
+                    android:id="@+id/room1"
             />
 
             <TextView
@@ -52,8 +53,9 @@
             <ImageButton
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/sunmoonM"
-                    android:scaleType="fitCenter"
+                    android:src="@drawable/sunmoonm"
+                    android:scaleType="fitXY"
+                    android:id="@+id/room2"
             />
 
             <TextView
@@ -88,8 +90,9 @@
             <ImageButton
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/sunmoonM"
-                    android:scaleType="fitCenter"
+                    android:src="@drawable/sunmoonm"
+                    android:scaleType="fitXY"
+                    android:id="@+id/room3"
             />
 
             <TextView
@@ -123,8 +126,9 @@
             <ImageButton
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/sunmoonM"
-                    android:scaleType="fitCenter"
+                    android:src="@drawable/sunmoonm"
+                    android:scaleType="fitXY"
+                    android:id="@+id/room4"
             />
 
             <TextView
@@ -162,8 +166,9 @@
             <ImageButton
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/sunmoonM"
-                    android:scaleType="fitCenter"
+                    android:src="@drawable/sunmoonm"
+                    android:scaleType="fitXY"
+                    android:id="@+id/room5"
             />
 
             <TextView
