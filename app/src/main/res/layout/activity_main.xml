@@ -25,25 +25,7 @@
                 android:layout_marginBottom="10dp"
         />
 
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="당신의 세탁 편의 어플"
-                android:textStyle="bold"
-                android:textSize="15dp"
-                android:textColor="#ffffff"
-                android:layout_marginBottom="20dp"
-        />
-
-
-
-        <ImageView
-                android:layout_width="250dp"
-                android:layout_height="250dp"
-                android:layout_gravity="center"
-                android:src="@drawable/washing_machineicon1"
-
-        />
+       
 
 
     </LinearLayout>
