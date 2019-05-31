@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#212121"
+            android:orientation="vertical"
+    >
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:background="#FFBB00"
+        >
+
+            <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/sunmoonm"
+                    android:scaleType="fitXY"
+                    android:id="@+id/room1"
+            />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="세탁소 이름: M동 세탁방
+
+                                  주소:충청남도 아산시 탕정면 선물로221번길 70선문대학교
+
+                                  "
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:background="#ffffff"
+            />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#FFBB00"
+        >
+
+            <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/sunmoonm"
+                    android:scaleType="fitXY"
+                    android:id="@+id/room2"
+            />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="세탁소 이름: M동 세탁방
+
+                                  주소:충청남도 아산시 탕정면 선물로221번길 70선문대학교
+
+                                  "
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:background="#ffffff"
+            />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#FFBB00"
+        >
+
+            <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/sunmoonm"
+                    android:scaleType="fitXY"
+                    android:id="@+id/room3"
+            />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="세탁소 이름: M동 세탁방
+
+                                  주소:충청남도 아산시 탕정면 선물로221번길 70선문대학교
+
+                                  "
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:background="#ffffff"
+            />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#FFBB00"
+        >
+
+            <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/sunmoonm"
+                    android:scaleType="fitXY"
+                    android:id="@+id/room4"
+            />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="세탁소 이름: M동 세탁방
+
+                                  주소:충청남도 아산시 탕정면 선물로221번길 70선문대학교
+
+                                  "
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:background="#ffffff"
+            />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#FFBB00"
+        >
+
+            <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/sunmoonm"
+                    android:scaleType="fitXY"
+                    android:id="@+id/room5"
+            />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="세탁소 이름: M동 세탁방
+
+                                  주소:충청남도 아산시 탕정면 선물로221번길 70선문대학교
+
+                                  "
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:background="#ffffff"
+            />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+</android.support.constraint.ConstraintLayout>
