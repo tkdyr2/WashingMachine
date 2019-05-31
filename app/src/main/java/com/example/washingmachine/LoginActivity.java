@@ -13,7 +13,10 @@ public class LoginActivity  extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
+
         Button loginbtn = (Button) findViewById(R.id.loginbutton);
+        Button registerBtn = (Button) findViewById(R.id.registerButton);
+
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -23,5 +26,19 @@ public class LoginActivity  extends Activity {
             }
         });
 
+        registerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),
+                        Registration.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
     }
+
 }
+
