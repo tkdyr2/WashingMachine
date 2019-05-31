@@ -47,15 +47,7 @@ public class MenuActivity  extends Activity {
         });
 
 
-        btn4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),
-                        LookNoticeWhole.class);
-
-                startActivity(intent);
-            }
-        });
+ 
 
 
 
