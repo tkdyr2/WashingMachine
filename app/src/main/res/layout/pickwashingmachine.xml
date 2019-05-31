@@ -47,6 +47,7 @@
 
 
         <LinearLayout
+                android:id="@+id/room1machine1"
                 android:layout_marginTop="10dp"
                 android:layout_width="fill_parent"
                 android:layout_height="100dp"
@@ -57,11 +58,12 @@
                     android:layout_height="match_parent"
                     android:src="@drawable/washing_machineicon1"
                     android:scaleType="fitXY"
-                    android:id="@+id/room1machine1"
+
 
             />
 
             <TextView
+                    android:id="@+id/tv1"
                     android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="95dp"
@@ -80,6 +82,7 @@
 
 
         <LinearLayout
+                android:id="@+id/room1machine2"
                 android:layout_marginTop="10dp"
                 android:layout_width="fill_parent"
                 android:layout_height="100dp"
@@ -90,10 +93,11 @@
                     android:layout_height="match_parent"
                     android:src="@drawable/washing_machineicon1"
                     android:scaleType="fitXY"
-                    android:id="@+id/room1machine2"
+
             />
 
             <TextView
+                    android:id="@+id/tv2"
                     android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="95dp"
@@ -114,6 +118,7 @@
 
 
         <LinearLayout
+                android:id="@+id/room1machine3"
                 android:layout_marginTop="10dp"
                 android:layout_width="fill_parent"
                 android:layout_height="100dp"
@@ -124,11 +129,12 @@
                     android:layout_height="match_parent"
                     android:src="@drawable/washing_machineicon1"
                     android:scaleType="fitXY"
-                    android:id="@+id/room1machine3"
+
 
             />
 
             <TextView
+                    android:id="@+id/tv3"
                     android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="95dp"
@@ -150,6 +156,7 @@
 
 
         <LinearLayout
+                android:id="@+id/room1machine4"
                 android:layout_marginTop="10dp"
                 android:layout_width="fill_parent"
                 android:layout_height="100dp"
@@ -160,11 +167,12 @@
                     android:layout_height="match_parent"
                     android:src="@drawable/washing_machineicon1"
                     android:scaleType="fitXY"
-                    android:id="@+id/room1machine4"
+
 
             />
 
             <TextView
+                    android:id="@+id/tv4"
                     android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="95dp"
@@ -183,6 +191,7 @@
 
 
         <LinearLayout
+                android:id="@+id/room1machine5"
                 android:layout_marginTop="10dp"
                 android:layout_width="fill_parent"
                 android:layout_height="100dp"
@@ -193,11 +202,12 @@
                     android:layout_height="match_parent"
                     android:src="@drawable/washing_machineicon1"
                     android:scaleType="fitXY"
-                    android:id="@+id/room1machine5"
+
 
             />
 
             <TextView
+                    android:id="@+id/tv5"
                     android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="95dp"
@@ -216,6 +226,7 @@
 
 
         <LinearLayout
+                android:id="@+id/room1machine6"
                 android:layout_marginTop="10dp"
                 android:layout_width="fill_parent"
                 android:layout_height="100dp"
@@ -226,11 +237,12 @@
                     android:layout_height="match_parent"
                     android:src="@drawable/washing_machineicon1"
                     android:scaleType="fitXY"
-                    android:id="@+id/room1machine6"
+
 
             />
 
             <TextView
+                    android:id="@+id/tv6"
                     android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="95dp"
