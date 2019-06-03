@@ -53,7 +53,7 @@
             <ImageButton
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/sunmoonm"
+                    android:src="@drawable/sunmoonb"
                     android:scaleType="fitXY"
                     android:id="@+id/room2"
             />
@@ -61,7 +61,7 @@
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="세탁소 이름: M동 세탁방
+                    android:text="세탁소 이름: B동 세탁방
 
                                   주소:충청남도 아산시 탕정면 선물로221번길 70선문대학교
 
@@ -90,7 +90,7 @@
             <ImageButton
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/sunmoonm"
+                    android:src="@drawable/sunmoona"
                     android:scaleType="fitXY"
                     android:id="@+id/room3"
             />
@@ -98,7 +98,7 @@
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="세탁소 이름: M동 세탁방
+                    android:text="세탁소 이름: A동 세탁방
 
                                   주소:충청남도 아산시 탕정면 선물로221번길 70선문대학교
 
@@ -126,7 +126,7 @@
             <ImageButton
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/sunmoonm"
+                    android:src="@drawable/sunmoondc"
                     android:scaleType="fitXY"
                     android:id="@+id/room4"
             />
@@ -134,7 +134,7 @@
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="세탁소 이름: M동 세탁방
+                    android:text="세탁소 이름: C동 세탁방
 
                                   주소:충청남도 아산시 탕정면 선물로221번길 70선문대학교
 
@@ -166,7 +166,7 @@
             <ImageButton
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/sunmoonm"
+                    android:src="@drawable/sunmoondc"
                     android:scaleType="fitXY"
                     android:id="@+id/room5"
             />
@@ -174,7 +174,7 @@
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="세탁소 이름: M동 세탁방
+                    android:text="세탁소 이름: D동 세탁방
 
                                   주소:충청남도 아산시 탕정면 선물로221번길 70선문대학교
 
