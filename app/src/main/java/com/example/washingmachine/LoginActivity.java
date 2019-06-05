@@ -36,6 +36,8 @@ public class LoginActivity  extends Activity {
         setContentView(R.layout.login);
 
         loginbtn = (Button) findViewById(R.id.loginbutton);
+        Button registerBtn = (Button) findViewById(R.id.registerButton);
+
         idtext = findViewById(R.id.idtext);
         pwtext = findViewById(R.id.passwordtext);
 
@@ -47,6 +49,15 @@ public class LoginActivity  extends Activity {
                 LoginDB task = new LoginDB();
                 task.execute("http://wshwan15.cafe24.com/WM_test.php");
 
+            }
+        });
+
+        registerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),
+                        Registration.class);
+                startActivity(intent);
             }
         });
 
