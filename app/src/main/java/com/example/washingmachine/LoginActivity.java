@@ -47,7 +47,7 @@ public class LoginActivity  extends Activity {
             public void onClick(View v) {
 
                 LoginDB task = new LoginDB();
-                task.execute("http://wshwan15.cafe24.com/WM_test.php");
+                task.execute("http://192.168.55.140/PHP_connection.php");
 
             }
         });
@@ -130,7 +130,7 @@ public class LoginActivity  extends Activity {
         try {
 
             JSONObject jsonObject = new JSONObject(json);
-            JSONArray jsonArray = jsonObject.getJSONArray("webnautes");
+            JSONArray jsonArray = jsonObject.getJSONArray("result");
 
             boolean login = false;
             for (int i = 0; i < jsonArray.length(); i++) {
